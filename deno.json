@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:@react-router/dev build",
+    "start": "deno run --unstable-bare-node-builtins --allow-net --allow-env --allow-read --allow-write --allow-sys npm:@react-router/serve ./build/server/index.js"
+  }
+}
